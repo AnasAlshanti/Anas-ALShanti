@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anas Al Shanti</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/Cv-Anas.css">
+        <link rel="stylesheet" href="css/Cv-Anas.css">
+        <link rel="stylesheet" href="css/madi.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+         <link rel="stylesheet" href="css/madi.css">
+        <!-- script -->
+    <script src="https://kit.fontawesome.com/9746d14c15.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script>
+        var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+    </script>
+</head>
+
+<body>
+    <!-- main header -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="d-flex">
+                <a href="index.html">
+                    <figure>
+                        <img src="img/photo_2022-08-21_23-57-18.jpg" alt="">
+                    </figure>
+                </a>
+                <div class="nav-link" id="navLinks">
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="hidemenu()"></i>
+                    <ul>
+                        <a href=""><img src="img/logo.png" width="50px" height="50px" alt="" class="menu"></a>
+                        <li class="home-sc"><a  href="">Home</a>
+                            <div class="home-scc">
+                              <a href="#">Html</a>
+                              <a href="#">Css</a>
+                              <a href="#">js</a>
+                            </div>
+                        </li>
+                        <li><a href="" class="stly">Anout</a></li>
+                        <li><a href="" class="stly">Skills</a></li>
+                        <li><a href="" class="stly">Resume</a></li>
+                        <li><a href="" class="stly">Portfolioi</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+            </nav>
+        </div>
+    </header>
+    <!-- main header -->
+    <main>
+        <!-- hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="title-cv">
+                    <h1>Welcom To Anas AL shanti</h1>
+                    <p>My name is Anas Mohammed Al Shanti and I am 19 years old
+                        I finished school with a GPA of 83.4 and I study at Al -Azhar University - Computer Systems Engineering </p>
+                        <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+                        <a href="https://twitter.com/anasshanti5" class="fa fa-twitter" target="_blank"></a>
+                        <a href="https://www.youtube.com/channel/UCcPAbdkuwrDe-0W1ZtM3ueQ" class="fa fa-youtube" target="_blank"></a>
+                        <a href="https://www.instagram.com/anas_alshanti/" class="fa fa-instagram" target="_blank"></a>  
+                <a href="https://accounts.snapchat.com/accounts/welcome" class="fa fa-snapchat-ghost" target="_blank"></a>
+                        <a href="" class="but-t"> Read More </a>
+
+                </div>
+            </div>
+        </section>
+        <!-- hero -->
+         
+        <section class="sec-slider">
+            <div class="container">
+                    <div class="slider">
+                        <div class="w3-content w3-display-container" style="max-width:900px;">
+    
+                            <!-- Slideshow -->
+                            <div class="w3-display-container mySlides w3-animate-opacity" style="display: block;">
+                              <img src="img/p1 (2).jpg" height="500px" width="900px">
+                              <div class="w3-display-middle w3-text-white w3-container w3-padding-32 w3-hide-small">
+                                
+                              </div>
+                            </div>
+                            <div class="w3-display-container mySlides w3-animate-opacity" style="display: none;">
+                              <img src="img/p1 (1).jpg" height="500px" width="900px">
+                              <div class="w3-display-topleft w3-text-white w3-container w3-padding-32 w3-hide-small">
+                                
+                              </div>
+                            </div>
+                            <div class="w3-display-container mySlides w3-animate-opacity" style="display: none;">
+                              <img src="img/p-3.jpg" height="500px" width="900px">
+                              <div class="w3-display-topright w3-text-white w3-container w3-padding-32 w3-hide-small">
+                                
+                              </div>
+                            </div>
+                          <button class="w3-button w3-light-grey noselection w3-display-left" onclick="plusDivs(-1)">❮</button>
+                          <button class="w3-button w3-light-grey noselection w3-display-right" onclick="plusDivs(+1)">❯</button>
+                          </div>
+                    </div>
+                
+            </div>
+    
+        </section>
+        <!-- slider2 -->
+            <section class="slider2">
+                <div class="container">
+
+                    <div class="container-flex">
+                        <div class="card">
+                          <h3>Anas Al Shanti</h3>
+                          <p> I was a driver and worked in the NTY team for 7 months and I have experience in the field of computers in general and I have a field in montage and designs
+                            I hope to open a company with my friends Hardworking and passionate job seeker with strong organizational skills eager to secure entry-level position. Ready to help team achieve company goals </p>
+                          <div class="corner left-top-corner"></div>
+                          <div class="corner rigth-top-corner"></div>
+                          <div class="corner left-bottom-corner"></div>
+                          <div class="corner right-bottom-corner"></div>
+                        </div>
+                      </div>
+                </div>
+            </section>
+            <!-- slider2 -->
+       
+    <!-- j.s -->
+    <script>
+
+        var NavBAR = document.getElementById("navLinks");
+
+        function showmenu() {
+            NavBAR.style.right = "0"
+            NavBAR.style.display = "block"
+        }
+
+        function hidemenu() {
+            NavBAR.style.display = "none"
+        }
+        
+    </script>
+     <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+
+</body>
+
+</html>
